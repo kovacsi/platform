@@ -1764,7 +1764,7 @@ func TestUserTyping(t *testing.T) {
 		}
 	}()
 
-	time.Sleep(300 * time.Millisecond)
+	time.Sleep(500 * time.Millisecond)
 
 	stop <- true
 

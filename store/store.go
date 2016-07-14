@@ -267,6 +267,7 @@ type StatusStore interface {
 	SaveOrUpdate(status *model.Status) StoreChannel
 	Get(userId string) StoreChannel
 	GetOnlineAway() StoreChannel
+	GetOnline() StoreChannel
 	ResetAll() StoreChannel
 	GetTotalActiveUsersCount() StoreChannel
 }
